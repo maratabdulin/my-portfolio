@@ -1,0 +1,14 @@
+@import "./../common/styles/Fonts.module.css";
+@import "./../common/styles/Variables.styles.css";
+
+.header {
+  height: 80px;
+  background-color: var(--second-color);
+  padding:0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

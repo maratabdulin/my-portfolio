@@ -1,0 +1,38 @@
+@import "./../common/styles/Fonts.module.css";
+@import "./../common/styles/Variables.styles.css";
+
+.footer {
+  background-color: var(--second-color);
+  padding:0;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: var(--back-color);
+  font-family: "LatoItalic", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.socialList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--back-color);
+}
+
+.rights {
+  color: var(--back-color);
+}

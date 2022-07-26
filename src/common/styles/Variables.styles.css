@@ -1,0 +1,13 @@
+:root {
+  --back-color: #dfeaff;
+  --back-secondary-color: #e1b0d9;
+  --main-color: #55d193;
+  --second-color: #1d6bff;
+  --text-color: #1e1d1d;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'LatoMedium', sans-serif;
+}
+

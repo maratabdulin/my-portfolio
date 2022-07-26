@@ -1,0 +1,29 @@
+@import "./../common/styles/Fonts.module.css";
+@import "./../common/styles/Variables.styles.css";
+
+.mainBlock {
+  height: 100vh;
+  background-color: var(--back-color);
+  font-family: 'LatoWeb', sans-serif;
+}
+
+.introduction {
+  width: 300px;
+  background-color: var(--main-color);
+  font-family: 'LatoMedium', sans-serif;
+  color: var(--text-color);
+}
+
+.photo {
+  width: 300px;
+  height: 400px;
+  background-color: var(--main-color);
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+

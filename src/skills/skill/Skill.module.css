@@ -1,0 +1,25 @@
+@import "./../../common/styles/Fonts.module.css";
+@import "./../../common/styles/Variables.styles.css";
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  border: 1px solid;
+  margin: 0;
+  padding: 10px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+.title {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+@import "./../common/styles/Fonts.module.css";
+@import "./../common/styles/Variables.styles.css";
+
+.nav {
+  border: 1px solid var(--back-color);
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: var(--second-color);
+}
+
+.link {
+  color: var(--back-color);
+  text-decoration: none;
+  font-family: 'LatoItalic', sans-serif;
+}
