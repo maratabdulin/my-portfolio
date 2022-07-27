@@ -2,7 +2,6 @@
 @import "./../common/styles/Variables.styles.css";
 
 .myWorksBlock {
-  height: 100vh;
   background-color: var(--back-color);
 }
 
@@ -20,19 +19,35 @@
 
 .myWorks {
   box-sizing: border-box;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   margin: 0;
   width: 100%;
   display: flex;
-  padding: 10px;
-  gap: 10px;
 }
 
 .worksWrapper {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
+  padding: 0 0 10px 0;
+}
+
+@media (min-width: 768px) {
+  .myWorksContainer {
+    height: 100vh;
+  }
+  .myWorksBlock {
+    min-height: 100vh;
+  }
+  .myWorks {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .worksWrapper {
+    flex-direction: row;
+  }
 }

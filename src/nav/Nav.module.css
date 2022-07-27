@@ -4,9 +4,10 @@
 .nav {
   border: 1px solid var(--back-color);
   display: flex;
-  gap: 20px;
+  gap: 10px;
   padding: 10px 20px;
   background-color: var(--second-color);
+  flex-wrap: wrap;
 }
 
 .link {
@@ -14,3 +15,10 @@
   text-decoration: none;
   font-family: 'LatoItalic', sans-serif;
 }
+
+@media (min-width: 768px) {
+  .nav {
+    gap: 20px;
+  }
+}
+

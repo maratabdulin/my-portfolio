@@ -8,15 +8,19 @@ const Contacts = () => {
             <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
                 <h2 className={styles.title}>Contacts</h2>
                 <form className={styles.form} action="">
-                    <label>
-                        Name:
+                    <label className={styles.label}>
+                        <span>Name:</span>
                         <input type="text"/>
                     </label>
-                    <label>
-                        Telephone:
+                    <label className={styles.label}>
+                        <span>Telephone:</span>
                         <input type="number"/>
                     </label>
-                    <textarea placeholder='Write something'/>
+                    <label className={styles.label}>
+                        <span>Your comment:</span>
+                        <textarea placeholder='Write something' style={{resize:"none"}}></textarea>
+                    </label>
+
                 </form>
             </div>
         </div>

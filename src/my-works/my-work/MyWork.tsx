@@ -12,12 +12,10 @@ const MyWork: FC<MyWorkPropsType> = (props) => {
     return (
         <div key={props.key} className={style.work}>
             <div className={style.image}>
-                <button>push to watch</button>
+                <a className={style.link} href="#">push to watch</a>
             </div>
-            <div className={style.wrapper}>
-                <h3 className={style.title}>{props.title}</h3>
-                <p className={style.description}>{props.description}</p>
-            </div>
+            <h3 className={style.title}>{props.title}</h3>
+            <p className={style.description}>{props.description}</p>
         </div>
     );
 };

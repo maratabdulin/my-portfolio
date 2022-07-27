@@ -1,8 +1,13 @@
 @import "./../common/styles/Fonts.module.css";
 @import "./../common/styles/Variables.styles.css";
 
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .contactsBlock {
-  height: 100vh;
   background-color: var(--back-secondary-color);
 }
 
@@ -11,9 +16,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
-
-
 
 .title {
   background-color: var(--main-color);
@@ -24,4 +28,12 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0 0 10px 0;
+  min-width: 250px;
+}
+
+@media (min-width: 768px) {
+  .contactsBlock {
+    height: 100vh;
+  }
 }

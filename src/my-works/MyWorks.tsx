@@ -12,8 +12,8 @@ type WorkType = {
 }
 
 const myWorks: Array<WorkType> = [
-    {id: v1(), title: 'Todolist', description: 'my first projects'},
-    {id: v1(), title: 'Social network', description: 'my second projects'},
+    {id: v1(), title: 'Todolist', description: 'my first project'},
+    {id: v1(), title: 'Social network', description: 'my second project'},
 ]
 
 const MyWorks = () => {

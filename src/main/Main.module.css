@@ -2,28 +2,58 @@
 @import "./../common/styles/Variables.styles.css";
 
 .mainBlock {
-  height: 100vh;
+  min-height: auto;
   background-color: var(--back-color);
-  font-family: 'LatoWeb', sans-serif;
+  font-family: "LatoWeb", sans-serif;
 }
 
 .introduction {
-  width: 300px;
+  min-width: 250px;
   background-color: var(--main-color);
-  font-family: 'LatoMedium', sans-serif;
+  font-family: "LatoMedium", sans-serif;
   color: var(--text-color);
+  text-align: center;
 }
 
-.photo {
-  width: 300px;
-  height: 400px;
+.photoContainer {
   background-color: var(--main-color);
+  height: 250px;
+}
+
+.title {
+  font-size: 20px;
 }
 
 .mainContainer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .mainBlock {
+    min-height: 100vh;
+  }
+
+  .mainContainer {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100vh;
+    padding: 0 20px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .photoContainer {
+    padding: 10px;
+  }
 }
 
