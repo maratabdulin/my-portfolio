@@ -30,7 +30,6 @@
   align-items: center;
   gap: 10px;
   padding: 10px 0;
-  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -52,8 +51,5 @@
     font-size: 30px;
   }
 
-  .photoContainer {
-    padding: 10px;
-  }
 }
 

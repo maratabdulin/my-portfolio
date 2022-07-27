@@ -12,12 +12,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
   .headerContainer {
     justify-content: end;
-
   }
 }

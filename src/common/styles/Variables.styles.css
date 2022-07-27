@@ -6,8 +6,11 @@
   --text-color: #1e1d1d;
 }
 
-body {
+* {
   font-size: 16px;
-  font-family: 'LatoMedium', sans-serif;
+  font-family: "LatoMedium", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 

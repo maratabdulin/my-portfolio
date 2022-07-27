@@ -20,7 +20,7 @@ const Contacts = () => {
                         <span>Your comment:</span>
                         <textarea placeholder='Write something' style={{resize:"none"}}></textarea>
                     </label>
-
+                    <button>Send</button>
                 </form>
             </div>
         </div>
